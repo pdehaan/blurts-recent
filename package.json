@@ -1,0 +1,19 @@
+{
+  "name": "blurts-recent",
+  "version": "1.0.0",
+  "description": "",
+  "bin": "node index.js",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index",
+    "test": "COUNT=10 node index",
+    "format": "npx prettier ./.cache/*.json --write"
+  },
+  "keywords": [],
+  "author": "Peter deHaan <peter@deseloper.com>",
+  "license": "MPL-2.0",
+  "dependencies": {
+    "@11ty/eleventy-fetch": "^4.0.0"
+  }
+}
