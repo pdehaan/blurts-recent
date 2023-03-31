@@ -1,10 +1,15 @@
 {
   "name": "blurts-recent",
   "version": "1.0.0",
-  "description": "",
-  "bin": "node index.js",
+  "bin": {
+    "blurts-recent": "index.js"
+  },
   "main": "index.js",
   "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pdehaan/blurts-recent.git"
+  },
   "scripts": {
     "start": "node index",
     "test": "COUNT=10 node index",
@@ -15,5 +20,11 @@
   "license": "MPL-2.0",
   "dependencies": {
     "@11ty/eleventy-fetch": "^4.0.0"
-  }
+  },
+  "bugs": {
+    "url": "https://github.com/pdehaan/blurts-recent/issues"
+  },
+  "homepage": "https://github.com/pdehaan/blurts-recent#readme",
+  "devDependencies": {},
+  "description": ""
 }
